@@ -1,0 +1,20 @@
+body {
+    margin: 50px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    text-align: center;
+    justify-content: left;
+}
+
+div {
+    padding: 10px;
+}
+label {
+    padding: 15px;
+}
+
+.checkbox, .radio {
+    flex-wrap: wrap;
+}
+
