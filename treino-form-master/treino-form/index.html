@@ -1,0 +1,72 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet"
+    type="text/css"
+    href="CSS/style.css">
+</head>
+<body>
+
+    <form action="obrigada.html" method="POST">
+
+        <div>
+            <label for="texto">Texto</label>
+            <input type="text" name="texto">
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
+        </div>
+        
+        <div class="checkbox">
+            <label class="question" for="tipo">Escolha uma ou múltiplas opções</label>
+            <div class="option">
+                <input type="checkbox" name="tipo" value="mulher">Mulher
+                <br>
+                <input type="checkbox" name="tipo" value="poderosa">Poderosa
+                <br>
+                <input type="checkbox" name="tipo" value="linda">Linda
+                <br>
+                <input type="checkbox" name="tipo" value="maravilhosa">Maravilhosa
+            </div>
+        </div>
+
+        <div class="radio">
+            <label class="question" for="superpoder">Escolha uma opção</label>
+            <div class="option">
+                <input type="radio" name="superpoder" value="força">Super força
+                <br>
+                <input type="radio" name="superpoder" value="invisivel">Ser invisível
+                <br>
+                <input type="radio" name="superpoder" value="mentes">Ler mentes
+                <br>
+                <input type="radio" name="superpoder" value="velocidade">Super velocidade
+            </div>
+        </div>
+        
+        <div>
+            <label for="topico">Selecione um tópico</label>
+            <select name="topico">
+                <option value="bonito">Deixar mais bonito</option>
+                <option value="rapido">Deixar mais rápido</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="valor">Escolha um valor</label>
+            <input type="number" name="valor">
+        </div>
+
+        <div>
+            <label class="question" for="comentario">Comentário</label>
+            <textarea name="comentario" cols="50" rows="10" maxlength="300"></textarea>
+        </div>
+
+    </form>
+    
+</body>
+</html>
